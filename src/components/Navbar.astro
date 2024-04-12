@@ -1,0 +1,89 @@
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Logo" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Clients</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+           
+
+           
+        </div>
+    </div>
+</nav>
+<style>
+   .contenedor-boton {
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenedor-boton button .contenido {
+    display: flex;
+    align-items: center;
+}
+
+
+
+    ul:hover, a:hover{
+        transition: all 0.8s;
+        color: pink;
+    }
+    ul{
+        justify-content: center;
+        margin: 0 auto;
+    }
+    li{
+        font-size: 18px;
+        color: white;
+    }
+    a{
+        color: white;
+        font-weight: 555;
+    }
+    nav{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        width: 100%;
+        padding: 50px;
+        position: fixed;
+        height: 10%;
+        max-height: auto;
+        border-bottom: 2px solid pink;
+        z-index: 9999999;
+       
+    }
+    img{
+        
+        width: 150px;
+        height: 150px;
+        z-index: 999;
+        margin-top: 30px;
+        object-fit: cover;
+    }
+</style>
